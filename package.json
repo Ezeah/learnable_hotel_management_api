@@ -1,0 +1,31 @@
+{
+  "author": "ezeahnnamdi",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.4.2",
+    "joi": "^17.8.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "postman": "^0.2.0",
+    "validator": "^13.9.0",
+    "yarn": "^1.22.19"
+  },
+  "name": "hotel_management_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
